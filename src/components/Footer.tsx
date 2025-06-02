@@ -45,7 +45,7 @@ export default function Footer() {
                 <Link to="/services" className="text-gray-300 hover:text-gold-500">Services</Link>
               </li>
               <li>
-                <Link to="/clients" className="text-gray-300 hover:text-gold-500">Client Portfolio</Link>
+                <Link to="/clients" className="text-gray-300 hover:text-gold-500">Clients</Link>
               </li>
               <li>
                 <Link to="/contact" className="text-gray-300 hover:text-gold-500">Contact</Link>
