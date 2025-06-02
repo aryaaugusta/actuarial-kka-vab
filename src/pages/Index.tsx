@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
-import {BookMarked, Calculator, Landmark, Receipt, ShieldCheck, TrendingUp, Users} from "lucide-react";
+import {BookMarked, Calculator, Receipt, ShieldCheck, Users} from "lucide-react";
 import {Button} from "@/components/ui/button";
 
 const Index = () => {
