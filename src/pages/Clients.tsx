@@ -8,15 +8,15 @@ import { Link } from "react-router-dom";
 const Clients = () => {
   // Placeholder client logos
   const clients = [
-    { name: "Insurance Corp", logo: "src/assets/images/clients/sinarmas-asuransi.png" },
-    { name: "Insurance Corp", logo: "src/assets/images/clients/CTCorp_logo.png" },
-    { name: "Pension Trust", logo: "src/assets/images/clients/Bank-Mega-Logo.png" },
-    { name: "Secure Bank", logo: "src/assets/images/clients/PT-Indo-Straits-Tbk.png" },
-    { name: "Risk Advisors", logo: "src/assets/images/clients/Bank-Muamalat-Logo.png" },
-    { name: "Capital Group", logo: "src/assets/images/clients/PFI-MEGA-LIFE.png" },
-    { name: "Wealth Partners", logo: "src/assets/images/clients/new_detikcom_logo.png" },
-    { name: "Future Securities", logo: "src/assets/images/clients/Lippo-Group.png" },
-    { name: "Invest Co", logo: "src/assets/images/clients/evergreen-capital.png" },
+    { name: "Insurance Corp", logo: "images/clients/sinarmas-asuransi.png" },
+    { name: "Insurance Corp", logo: "/images/clients/CTCorp_logo.png" },
+    { name: "Pension Trust", logo: "/images/clients/Bank-Mega-Logo.png" },
+    { name: "Secure Bank", logo: "/images/clients/PT-Indo-Straits-Tbk.png" },
+    { name: "Risk Advisors", logo: "/images/clients/Bank-Muamalat-Logo.png" },
+    { name: "Capital Group", logo: "/images/clients/PFI-MEGA-LIFE.png" },
+    { name: "Wealth Partners", logo: "/images/clients/new_detikcom_logo.png" },
+    { name: "Future Securities", logo: "/images/clients/Lippo-Group.png" },
+    { name: "Invest Co", logo: "/images/clients/evergreen-capital.png" },
     { name: "Metro Insurance", logo: "https://cdn-healthcare.hellohealthgroup.com/hospitals/id/siloam-hospitals-bekasi-timur20220211.png" },
     /*{ name: "National Pension", logo: "https://via.placeholder.com/200x100?text=National+Pension" },
     { name: "Alpha Finance", logo: "https://via.placeholder.com/200x100?text=Alpha+Finance" }*/
