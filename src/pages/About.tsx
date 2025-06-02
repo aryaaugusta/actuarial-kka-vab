@@ -9,43 +9,43 @@ const About = () => {
             name: " V. Agus Basuki FSAI",
             position: "Public Actuary and Company Leader",
             bio: " Agus Basuki is the company leader and public actuary who has experience in the actuarial field of expertise in pension  and post-employment benefits programs since 2007. He has a bachelor's degree in ITB Mathematics and has held the title of Fellow of the Society of Actuaries of Indonesia since 2016.",
-            image: "src/assets/images/icon/male_icon_4_edit.png"
+            image: "/images/male_icon_4_edit.png"
         },
         {
             name: "Albert Charles Sompie, SE",
             position: "Senior Consultant",
             bio: "Albert is a senior consultant who has joined us since 2017 and has experience in the field of pension program, life insurance and post-employment benefits programs for more than 20 years at the Central Actuarial Bureau. He assists clients in the field of post-employment benefits consultation (PSAK 24)",
-            image: "src/assets/images/icon/male_icon_5_edit.png"
+            image: "/images/male_icon_5_edit.png"
         },
         {
             name: "Serarindramulia, SE FSAI",
             position: "Life Insurance Expert",
             bio: "Rarindra is a life insurance expert who has experience in the actuarial field for more than 20 years in several joint venture life insurance companies in Jakarta and Singapore, including Sun Life Finance and Swiss Re Singapore. He has a bachelor's degree in extension economics and an actuarial diploma from the University of Indonesia and has held the title of Fellow of the Society of Actuaries of Indonesia since 2011.",
-            image: "src/assets/images/icon/male_icon_6_edit.png"
+            image: "/images/male_icon_6_edit.png"
         },
         {
             name: "Arya Ananggadipa Augusta, SKOM",
             position: "IT Support",
             bio: "Arya is our IT support Expert Arya who graduated from Universitas Bina Nusantara.",
-            image: "src/assets/images/icon/male_icon_4_edit.png"
+            image: "/images/male_icon_4_edit.png"
         },
         {
             name: "Rachel, SE",
             position: "Accounting, Finance and Tax Staff",
             bio: "Rachel has the expertise in Accounting, Finance, and Tax, who graduated From Universitas Trisakti.",
-            image: "src/assets/images/icon/female_icon_edit.png"
+            image: "/images/female_icon_edit.png"
         },
         {
             name: "Skolastika Asclepias",
             position: "Telemarketing Staff",
             bio: "Ascle is our specialist in Telemarketing who graduated from Universitas Bina Nusantara.",
-            image: "src/assets/images/icon/female_icon_edit.png"
+            image: "/images/female_icon_edit.png"
         },
         {
             name: "Jonathan, SE",
             position: "Admin Staff",
             bio: "Jonathan handles our administration and he graduated from Universitas Diponegoro.",
-            image: "src/assets/images/icon/male_icon_6_edit.png"
+            image: "/images/male_icon_6_edit.png"
         }
     ];
 

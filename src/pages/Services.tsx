@@ -216,7 +216,7 @@ const Services = () => {
                                         </div>
                                         <div className="bg-white dark:bg-navy-700 p-6 rounded-lg shadow-md">
                                             <img
-                                                src="src/assets/images/services/implementation-phase.jpg"
+                                                src="/images/implementation-phase.jpg"
                                                 alt="Implementation phase"
                                                 className="rounded-lg"
                                             />
