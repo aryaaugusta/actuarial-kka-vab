@@ -202,10 +202,10 @@ const About = () => {
                 {/* Stats */}
                 <section className="py-16 md:py-24 bg-navy-600 text-white">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                        <div className="grid grid-cols-4 sm:grid-cols-1 lg:grid-cols-3 gap-8 text-center">
                             <div>
-                                <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">3</div>
-                                <div className="text-xl">Expert Actuaries</div>
+                                <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">1000+</div>
+                                <div className="text-xl">Actuarial Calculation Completed</div>
                             </div>
                             <div>
                                 <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">20+</div>
@@ -215,10 +215,10 @@ const About = () => {
                                 <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">100+</div>
                                 <div className="text-xl">Satisfied Clients</div>
                             </div>
-                            <div>
+                            {/*<div>
                                 <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">1</div>
                                 <div className="text-xl">Countries Served</div>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </section>
