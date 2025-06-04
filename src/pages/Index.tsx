@@ -69,7 +69,7 @@ const Index = () => {
                             <div className="order-1 lg:order-2 relative">
                                 <div className="aspect-[4/3] bg-navy-100 dark:bg-navy-800 rounded-lg overflow-hidden">
                                     <img
-                                        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80"
+                                        src="/images/businessman-working.jpeg"
                                         alt="Team meeting"
                                         className="w-full h-full object-cover"
                                     />
