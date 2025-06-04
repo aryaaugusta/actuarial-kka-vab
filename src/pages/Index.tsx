@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import {BookMarked, Calculator, Receipt, ShieldCheck, Users} from "lucide-react";
 import {Button} from "@/components/ui/button";
+import RetirementCalculator from "@/components/RetirementCalculator";
 
 const Index = () => {
     const featuredServices = [

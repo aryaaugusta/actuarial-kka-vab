@@ -14,7 +14,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-gray-300 mb-6">
-              Professional actuarial consultancy services for insurance, pension, risk management, and financial planning.
+              Professional actuarial consultancy services for insurance, employee welfare benefits, retirement funds and health warranty, and actuary workshop.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-gold-500">
@@ -46,6 +46,9 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/clients" className="text-gray-300 hover:text-gold-500">Clients</Link>
+              </li>
+              <li>
+                <Link to="/calculator" className="text-gray-300 hover:text-gold-500">Calculator</Link>
               </li>
               <li>
                 <Link to="/contact" className="text-gray-300 hover:text-gold-500">Contact</Link>
