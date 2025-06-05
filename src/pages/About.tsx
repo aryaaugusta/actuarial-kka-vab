@@ -2,58 +2,60 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TeamMember from "@/components/TeamMember";
 import {CheckCircle} from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+    const { t } = useTranslation();
     const teamMembers = [
         {
-            name: " V. Agus Basuki FSAI",
-            position: "Public Actuary and Company Leader",
-            bio: " Agus Basuki is the company leader and public actuary who has experience in the actuarial field of expertise in pension  and post-employment benefits programs since 2007. He has a bachelor's degree in ITB Mathematics and has held the title of Fellow of the Society of Actuaries of Indonesia since 2016.",
+            name: t("about.publicActuary.name"),
+            position: t("about.publicActuary.position"),
+            bio: t("about.publicActuary.bio"),
             image: "/images/male_icon_4_edit.png"
         },
         {
-            name: "Albert Charles Sompie, SE",
-            position: "Senior Consultant",
-            bio: "Albert is a senior consultant who has joined us since 2017 and has experience in the field of pension program, life insurance and post-employment benefits programs for more than 20 years at the Central Actuarial Bureau. He assists clients in the field of post-employment benefits consultation (PSAK 24)",
+            name: t("about.seniorCons.name"),
+            position: t("about.seniorCons.position"),
+            bio: t("about.seniorCons.bio"),
             image: "/images/male_icon_5_edit.png"
         },
         {
-            name: "Serarindramulia, SE FSAI",
-            position: "Life Insurance Expert",
-            bio: "Rarindra is a life insurance expert who has experience in the actuarial field for more than 20 years in several joint venture life insurance companies in Jakarta and Singapore, including Sun Life Finance and Swiss Re Singapore. He has a bachelor's degree in extension economics and an actuarial diploma from the University of Indonesia and has held the title of Fellow of the Society of Actuaries of Indonesia since 2011.",
+            name: t("about.lifeIns.name"),
+            position: t("about.lifeIns.position"),
+            bio: t("about.lifeIns.bio"),
             image: "/images/male_icon_6_edit.png"
         },
         {
-            name: "Arya Ananggadipa Augusta, SKOM",
-            position: "IT Support",
-            bio: "Arya is our IT support Expert Arya who graduated from Universitas Bina Nusantara.",
+            name: t("about.it.name"),
+            position: t("about.it.position"),
+            bio: t("about.it.bio"),
             image: "/images/male_icon_4_edit.png"
         },
         {
-            name: "Rachel, SE",
-            position: "Accounting, Finance and Tax Staff",
-            bio: "Rachel has the expertise in Accounting, Finance, and Tax, who graduated From Universitas Trisakti.",
+            name: t("about.acc.name"),
+            position: t("about.acc.position"),
+            bio: t("about.acc.bio"),
             image: "/images/female_icon_edit.png"
         },
         {
-            name: "Skolastika Asclepias",
-            position: "Telemarketing Staff",
-            bio: "Ascle is our specialist in Telemarketing who graduated from Universitas Bina Nusantara.",
+            name: t("about.tele.name"),
+            position: t("about.tele.position"),
+            bio: t("about.tele.bio"),
             image: "/images/female_icon_edit.png"
         },
         {
-            name: "Jonathan, SE",
-            position: "Admin Staff",
-            bio: "Jonathan handles our administration and he graduated from Universitas Diponegoro.",
+            name: t("about.admin.name"),
+            position: t("about.admin.position"),
+            bio: t("about.admin.bio"),
             image: "/images/male_icon_6_edit.png"
         }
     ];
 
     const coreValues = [
-        {value: "Excellence", description: "Delivering the highest quality in every aspect of our work"},
-        {value: "Integrity", description: "Maintaining unwavering honesty and ethical standards"},
-        {value: "Innovation", description: "Continuously improving our methods and approaches"},
-        {value: "Collaboration", description: "Working closely with clients to achieve their goals"}
+        {value: t("about.coreValue.value1"), description: t("about.coreValue.description1")},
+        {value: t("about.coreValue.value2"), description: t("about.coreValue.description2")},
+        {value: t("about.coreValue.value3"), description: t("about.coreValue.description3")},
+        {value: t("about.coreValue.value4"), description: t("about.coreValue.description4")}
     ];
 
     return (
@@ -65,9 +67,9 @@ const About = () => {
                 <section className="bg-navy-600 text-white py-20 md:py-28">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="max-w-3xl">
-                            <h1 className="text-4xl md:text-5xl font-bold mb-6">About KKA VAB</h1>
+                            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t("about.title")}</h1>
                             <p className="text-xl text-gray-200">
-                                Building financial resilience through expert actuarial analysis and strategic consulting
+                                {t("about.description")}
                             </p>
                         </div>
                     </div>
@@ -78,24 +80,18 @@ const About = () => {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                             <div>
-                                <h2 className="text-3xl font-bold text-navy-700 dark:text-white mb-6">Our Story</h2>
+                                <h2 className="text-3xl font-bold text-navy-700 dark:text-white mb-6">{t("about.story")}</h2>
                                 <p className="text-navy-600 dark:text-gray-300 mb-4">
-                                    Actuary Consultant Office V. Agus Basuki or Kantor Konsultan Aktuaria V. Agus Basuki
-                                    (KKA VAB) is a company that enganges in actuary services, such as post-employment
-                                    benefit program, insurance and retiremend funds. It is led by V. Agus Basuki, FSAI
-                                    with the following actuary license.
+                                    {t("about.storyDesc1")}
                                 </p>
                                 <p className="text-navy-600 dark:text-gray-300 mb-4">
-                                    Ministry of Finance of Republic Indonesia No. 738/KM.1/2018 dated on November 28th,
-                                    2018 and Public Actuary License: Act-1.18.00135.
+                                    {t("about.storyDesc2")}
+                                </p>
+                                <p className="text-navy-600 dark:text-gray-300 mb-4">
+                                    {t("about.storyDesc3")}
                                 </p>
                                 <p className="text-navy-600 dark:text-gray-300">
-                                    Certificate of registration in OJK : Actuarial Consultant for the Non-Bank Financial
-                                    Industry No. 035/NB.122/STTD-KA/2021 dated on March 9th, 2021.
-                                </p>
-                                <p className="text-navy-600 dark:text-gray-300">
-                                    We have previously worked on post-employment benefit program since 2010 with PT
-                                    Lastika Dipa and continue to provide our serviice as KKA VAB on October 24th, 2019.
+                                    {t("about.storyDesc4")}
                                 </p>
                             </div>
                             <div className="relative">
@@ -107,7 +103,7 @@ const About = () => {
                                 <div
                                     className="absolute -bottom-8 -right-8 bg-white dark:bg-navy-800 p-6 rounded-lg shadow-xl">
                                     <div className="font-merriweather font-bold text-5xl text-gold-500">20+</div>
-                                    <div className="text-navy-700 dark:text-white">Years of Excellence</div>
+                                    <div className="text-navy-700 dark:text-white">{t("about.years")}</div>
                                 </div>
                             </div>
                         </div>
@@ -128,10 +124,9 @@ const About = () => {
                                               d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
                                     </svg>
                                 </div>
-                                <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-4">Our Vision</h3>
+                                <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-4">{t("about.ourVision")}</h3>
                                 <p className="text-navy-600 dark:text-gray-300">
-                                    To be the preeminent actuarial consultancy in Asia, recognized for our technical
-                                    excellence, innovative solutions, and unwavering commitment to our clients' success.
+                                    {t("about.vision")}
                                 </p>
                             </div>
 
@@ -143,19 +138,16 @@ const About = () => {
                                               d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                                     </svg>
                                 </div>
-                                <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-4">Our Mission</h3>
+                                <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-4">{t("about.ourMission")}</h3>
                                 <p className="text-navy-600 dark:text-gray-300">
-                                    To empower organizations to make informed financial decisions through expert
-                                    actuarial analysis, strategic consulting, and innovative solutions that drive
-                                    sustainable growth and create lasting value for our clients and communities.
+                                    {t("about.mission")}
                                 </p>
                             </div>
                         </div>
 
                         {/* Core Values */}
                         <div className="mt-16">
-                            <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-8 text-center">Our Core
-                                Values</h3>
+                            <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-8 text-center">{t("about.coreValue.title")}</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                                 {coreValues.map((item, index) => (
                                     <div key={index}
@@ -177,11 +169,10 @@ const About = () => {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-12">
                             <h2 className="text-3xl md:text-4xl font-bold text-navy-700 dark:text-white mb-4">
-                                Meet Our Expert Team
+                                {t("about.team.title")}
                             </h2>
                             <p className="max-w-2xl mx-auto text-navy-600 dark:text-gray-300">
-                                Our diverse team of certified actuaries and financial experts brings a wealth of
-                                knowledge and experience to every client engagement.
+                                {t("about.team.description")}
                             </p>
                         </div>
 
@@ -205,15 +196,15 @@ const About = () => {
                         <div className="grid grid-cols-4 sm:grid-cols-1 lg:grid-cols-3 gap-8 text-center">
                             <div>
                                 <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">1000+</div>
-                                <div className="text-xl">Actuarial Calculation Completed</div>
+                                <div className="text-xl">{t("about.stats.completed")}</div>
                             </div>
                             <div>
                                 <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">20+</div>
-                                <div className="text-xl">Years of Experience</div>
+                                <div className="text-xl">{t("about.stats.yearsExp")}</div>
                             </div>
                             <div>
                                 <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">100+</div>
-                                <div className="text-xl">Satisfied Clients</div>
+                                <div className="text-xl">{t("about.stats.satClients")}</div>
                             </div>
                             {/*<div>
                                 <div className="font-merriweather font-bold text-5xl text-gold-500 mb-2">1</div>

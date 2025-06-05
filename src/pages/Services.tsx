@@ -52,10 +52,10 @@ const Services = () => {
         },
         {
             icon: <BookMarked className="h-8 w-8"/>,
-            title: "Actuary Workshop",
-            description: "Sophisticated financial models and projections to support strategic decision-making and long-term planning.",
+            title: "Actuary Training",
+            description: "Facilitate the preparations for taking the Actuary professional exam by providing training.",
             benefits: [
-                "Exam Readiness – Support for Actuary exam preparation through focused workshops.",
+                "Exam Readiness – Support for Actuary exam preparation through focused training.",
                 "Practical Skills – Training in retirement fund calculations and PSAK-24 applications.",
                 "Technical Mastery – Deepened understanding of technical reserve calculations for insurance.",
                 "Inclusive Training – Programs available for both actuarial and non-actuarial staff.",

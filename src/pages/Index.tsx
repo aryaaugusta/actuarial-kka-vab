@@ -6,28 +6,30 @@ import ServiceCard from "@/components/ServiceCard";
 import {BookMarked, Calculator, Receipt, ShieldCheck, Users} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import RetirementCalculator from "@/components/RetirementCalculator";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
+    const { t } = useTranslation();
     const featuredServices = [
         {
             icon: <ShieldCheck className="h-6 w-6"/>,
-            title: "Insurance Consulting",
-            description: "Assist the preparation of Filing for New Life Insurance and General Insurance Products."
+            title: t("services.insurance.title"),
+            description: t("services.insurance.description")
         },
         {
             icon: <Receipt className="h-6 w-6"/>,
-            title: "Retirement Funds and Health Warranty",
-            description: "Assist in the preparation and establishment of Pension Funds as well as the dissolution of Pension Funds (DPPK & DPLK)."
+            title: t("services.retirement.title"),
+            description: t("services.retirement.description")
         },
         {
             icon: <Calculator className="h-6 w-6"/>,
-            title: "Employee Welfare Benefits",
-            description: "Calculate the estimation of Defined Benefit Liabilities and Expenses based on the provisions of employee benefit accounting standards."
+            title: t("services.welfare.title"),
+            description: t("services.welfare.description")
         },
         {
             icon: <BookMarked className="h-6 w-6"/>,
-            title: "Actuary Workshop",
-            description: "Sophisticated financial models and projections to support strategic decision-making and long-term planning."
+            title: t("services.workshop.title"),
+            description: t("services.workshop.description")
         }
     ];
 
@@ -44,24 +46,18 @@ const Index = () => {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                             <div className="order-2 lg:order-1">
                                 <h2 className="text-3xl md:text-4xl font-bold text-navy-700 dark:text-white mb-6">
-                                    Trusted Actuarial Expertise Since 2010
+                                    {t("home.about.title")}
                                 </h2>
                                 <p className="text-navy-600 dark:text-gray-300 mb-6">
-                                    KKA VAB provides high-quality actuarial services to help businesses navigate complex
-                                    insurance companies, employee welfare benefits, retirement funds and health warranty
-                                    and actuary workshop. With over 20 years of experience, our team of
-                                    certified actuaries delivers tailored solutions that drive strategic decision-making
-                                    and financial stability.
+                                    {t("home.about.description1")}
                                 </p>
                                 <p className="text-navy-600 dark:text-gray-300 mb-8">
-                                    Our deep industry knowledge, analytical rigor, and commitment to excellence have
-                                    made us the trusted partner for leading insurance companies, employee welfare
-                                    benefits, retirement funds and health warranty and actuary workshop across Asia.
+                                    {t("home.about.description2")}
                                 </p>
                                 <Link to="/about">
                                     <Button variant="outline"
                                             className="border-navy-600 text-navy-600 hover:bg-navy-50 dark:border-gold-500 dark:text-gold-500 dark:hover:bg-navy-800">
-                                        Learn More About Us
+                                        {t("home.about.button")}
                                     </Button>
                                 </Link>
                             </div>
@@ -80,8 +76,7 @@ const Index = () => {
                                         <Users className="h-8 w-8 text-white mr-4"/>
                                         <div className="text-2xl font-bold text-white">100+</div>
                                     </div>
-                                    <p className="text-navy-900 font-medium">Satisfied clients across various industry
-                                        sectors</p>
+                                    <p className="text-navy-900 font-medium">{t("home.countClient.title")}</p>
                                 </div>
                             </div>
                         </div>
@@ -93,10 +88,10 @@ const Index = () => {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-12">
                             <h2 className="text-3xl md:text-4xl font-bold text-navy-700 dark:text-white mb-4">
-                                Our Featured Services
+                                {t("home.servicesTitle")}
                             </h2>
                             <p className="max-w-2xl mx-auto text-navy-600 dark:text-gray-300">
-                                Comprehensive actuarial solutions tailored to meet the unique needs of your organization
+                                {t("home.servicesDesc")}
                             </p>
                         </div>
 
@@ -114,7 +109,7 @@ const Index = () => {
                         <div className="mt-12 text-center">
                             <Link to="/services">
                                 <Button className="bg-navy-600 hover:bg-navy-700 text-white">
-                                    View All Services
+                                    {t("services.button")}
                                 </Button>
                             </Link>
                         </div>
@@ -122,7 +117,7 @@ const Index = () => {
                 </section>
 
                 {/* CTA Section */}
-                <section className="py-16 md:py-24 bg-navy-700 text-white">
+                {/*<section className="py-16 md:py-24 bg-navy-700 text-white">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Financial
                             Strategy?</h2>
@@ -144,7 +139,7 @@ const Index = () => {
                             </Link>
                         </div>
                     </div>
-                </section>
+                </section>*/}
             </main>
 
             <Footer/>

@@ -5,23 +5,29 @@ import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./ThemeToggle";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const navLinks = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Services", href: "/services" },
-  { name: "Clients", href: "/clients" },
-  /*{ name: "Blog", href: "/blog" },*/
-  { name: "Calculator", href: "/calculator" },
-  { name: "Contact", href: "/contact" },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const { t, i18n } = useTranslation();
+
+  const navLinks = [
+    { name: t("nav.Home"), href: "/" },
+    { name: t("nav.About"), href: "/about" },
+    { name: t("nav.Services"), href: "/services" },
+    { name: t("nav.Clients"), href: "/clients" },
+    // { name: t("nav.blog"), href: "/blog" },
+    { name: t("nav.Calculator"), href: "/calculator" },
+    { name: t("nav.Contact"), href: "/contact" },
+  ];
 
   const isActive = (path: string) => {
     return location.pathname === path;
+  };
+
+  const handleLanguageChange = (lang: string) => {
+    i18n.changeLanguage(lang);
   };
 
   return (
@@ -54,6 +60,22 @@ export default function Navbar() {
               </Link>
             ))}
             <ThemeToggle />
+            {/* Language Toggle */}
+            <div className="flex items-center space-x-2">
+              <button
+                  onClick={() => handleLanguageChange("en")}
+                  className={cn("text-sm font-medium", i18n.language === "en" ? "text-gold-500" : "text-gray-400")}
+              >
+                EN
+              </button>
+              <span className="text-gray-400">|</span>
+              <button
+                  onClick={() => handleLanguageChange("id")}
+                  className={cn("text-sm font-medium", i18n.language === "id" ? "text-gold-500" : "text-gray-400")}
+              >
+                ID
+              </button>
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -97,6 +119,16 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
+        </div>
+
+        {/* Language Toggle in mobile */}
+        <div className="flex justify-center gap-4 mt-4">
+          <button onClick={() => handleLanguageChange("en")} className={cn("text-sm", i18n.language === "en" && "text-gold-500 font-bold")}>
+            EN
+          </button>
+          <button onClick={() => handleLanguageChange("id")} className={cn("text-sm", i18n.language === "id" && "text-gold-500 font-bold")}>
+            ID
+          </button>
         </div>
       </div>
     </nav>

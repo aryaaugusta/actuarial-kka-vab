@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Clients": "Clients",
+    "Blog": "Blog",
+    "Calculator": "Calculator",
+    "Contact": "Contact"
+  },
+  "hero": {
+    "titleLine1": "Expert Actuarial",
+    "titleLine2": "Consultancy Services",
+    "description": "Providing comprehensive actuarial solutions for insurance companies, employee welfare benefits, retirement funds and health warranty, and actuary training for over 20 years.",
+    "buttonServices": "Our Services",
+    "buttonContact": "Contact Us"
+  },
+  "home": {
+    "about": {
+      "title": "Trusted Actuarial Expertise Since 2010",
+      "description1": "KKA VAB provides high-quality actuarial services to help businesses navigate complex insurance companies, employee welfare benefits, retirement funds and health warranty and actuary training. With over 20 years of experience, our team of certified actuaries delivers tailored solutions that drive strategic decision-making and financial stability.",
+      "description2": "Our deep industry knowledge, analytical rigor, and commitment to excellence have made us the trusted partner for leading insurance companies, employee welfare benefits, retirement funds and health warranty and actuary training across Asia.",
+      "button": "Learn More About Us"
+    },
+    "servicesTitle": "Our Featured Services",
+    "servicesDesc": "Comprehensive actuarial solutions tailored to meet the unique needs of your organization",
+    "cta": {
+      "title": "Ready to Transform Your Financial Strategy?",
+      "description": "Our expert team of actuaries is ready to help...",
+      "contactBtn": "Contact Us Today",
+      "servicesBtn": "Explore Services"
+    },
+    "countClient": {
+      "title": "Satisfied clients across various industry sectors"
+    }
+  },
+  "services": {
+    "insurance": {
+      "title": "Insurance Consulting",
+      "description": "Assist the preparation of Filing for Life Insurance and General Insurance New Products."
+    },
+    "retirement": {
+      "title": "Retirement Funds and Health Warranty",
+      "description": "Assist in the preparation and establishment of Pension Funds as well as the dissolution of Pension Funds (DPPK & DPLK)."
+    },
+    "welfare": {
+      "title": "Employee Welfare Benefits",
+      "description": "Calculate the estimation of Defined Benefit Liabilities and Expenses based on the provisions of employee benefit accounting standards."
+    },
+    "workshop": {
+      "title": "Actuary Training",
+      "description": "Facilitate the preparations for taking the Actuary professional exam by providing training."
+    },
+    "button": "View All Services"
+  },
+  "footer": {
+    "description": "Professional actuarial consultancy services for insurance, employee welfare benefits, retirement funds and health warranty, and actuary training.",
+    "quickLinks": "Quick Links"
+  },
+  "about": {
+    "publicActuary": {
+      "name": "V. Agus Basuki FSAI",
+      "position": "Public Actuary and Company Leader",
+      "bio": "Agus Basuki is the company leader and public actuary who has experience in the actuarial field of expertise in pension  and post-employment benefits programs since 2007. He has a bachelor's degree in ITB Mathematics and has held the title of Fellow of the Society of Actuaries of Indonesia since 2016."
+    },
+    "seniorCons": {
+      "name": "Albert Charles Sompie, SE",
+      "position": "Senior Consultant",
+      "bio": "Albert is a senior consultant who has joined us since 2017 and has experience in the field of pension program, life insurance and post-employment benefits programs for more than 20 years at the Central Actuarial Bureau. He assists clients in the field of post-employment benefits consultation (PSAK 24)."
+    },
+    "lifeIns": {
+      "name": "Serarindramulia, SE FSAI",
+      "position": "Life Insurance Expert",
+      "bio": "Rarindra is a life insurance expert who has experience in the actuarial field for more than 20 years in several joint venture life insurance companies in Jakarta and Singapore, including Sun Life Finance and Swiss Re Singapore. He has a bachelor's degree in extension economics and an actuarial diploma from the University of Indonesia and has held the title of Fellow of the Society of Actuaries of Indonesia since 2011."
+    },
+    "it": {
+      "name": "Arya Ananggadipa Augusta, SKOM",
+      "position": "IT Support",
+      "bio": "Arya is our IT support Expert Arya who graduated from Universitas Bina Nusantara."
+    },
+    "acc": {
+      "name": "Rachel, SE",
+      "position": "Accounting, Finance and Tax Staff",
+      "bio": "Rachel has the expertise in Accounting, Finance, and Tax, who graduated From Universitas Trisakti."
+    },
+    "tele": {
+      "name": "Skolastika Asclepias",
+      "position": "Telemarketing Staff",
+      "bio": "Ascle is our specialist in Telemarketing who graduated from Universitas Bina Nusantara."
+    },
+    "admin": {
+      "name": "Jonathan, SE",
+      "position": "Admin Staff",
+      "bio": "Jonathan handles our administration and he graduated from Universitas Diponegoro."
+    },
+    "title": "About KKA VAB",
+    "description": "Building financial resilience through expert actuarial analysis and strategic consulting.",
+    "story": "Our Story",
+    "storyDesc1": "Actuary Consultant Office V. Agus Basuki or Kantor Konsultan Aktuaria V. Agus Basuki (KKA VAB) is a company that enganges in actuary services, such as post-employment benefit program, insurance and retiremend funds. It is led by V. Agus Basuki, FSAI with the following actuary license.",
+    "storyDesc2": "Ministry of Finance of Republic Indonesia No. 738/KM.1/2018 dated on November 28th, 2018 and Public Actuary License: Act-1.18.00135.",
+    "storyDesc3": "Certificate of registration in OJK : Actuarial Consultant for the Non-Bank Financial Industry No. 035/NB.122/STTD-KA/2021 dated on March 9th, 2021.",
+    "storyDesc4": "We have previously worked on post-employment benefit program since 2010 with PT Lastika Dipa and continue to provide our serviice as KKA VAB on October 24th, 2019.",
+    "years": "Years of Excellence",
+    "ourVision": "Our Vision",
+    "ourMission": "Our Mission",
+    "vision": "To be the preeminent actuarial consultancy in Asia, recognized for our technical excellence, innovative solutions, and unwavering commitment to our clients' success.",
+    "mission": "To empower organizations to make informed financial decisions through expert actuarial analysis, strategic consulting, and innovative solutions that drive sustainable growth and create lasting value for our clients and communities.",
+    "coreValue": {
+      "title": "Our Core Values",
+      "value1": "Excellence",
+      "description1": "Delivering the highest quality in every aspect of our work",
+      "value2": "Integrity",
+      "description2": "Maintaining unwavering honesty and ethical standards",
+      "value3": "Innovation",
+      "description3": "Continuously improving our methods and approaches",
+      "value4": "Collaboration",
+      "description4": "Working closely with clients to achieve their goals"
+    },
+    "team": {
+      "title": "Meet Our Expert Team",
+      "description": "Our diverse team of certified actuaries and financial experts brings a wealth of knowledge and experience to every client engagement."
+    },
+    "stats": {
+      "completed": "Actuarial Calculation Completed",
+      "yearsExp": "Years of Experience",
+      "satClients": "Satisfied Clients"
+    }
+  }
+}
+

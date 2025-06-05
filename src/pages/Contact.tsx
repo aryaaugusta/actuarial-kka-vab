@@ -207,7 +207,7 @@ const Contact = () => {
                             <SelectItem value="employee-welfare-benefits">Employee Welfare Benefits</SelectItem>
                             <SelectItem value="retirement-funds-and-health-warranty">Retirement Funds and Health Warranty</SelectItem>
                             <SelectItem value="insurance-consulting">Insurance Consulting</SelectItem>
-                            <SelectItem value="actuary-workshop">Actuary Workshop</SelectItem>
+                            <SelectItem value="actuary-workshop">Actuary Training</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>

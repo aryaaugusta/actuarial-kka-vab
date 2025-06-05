@@ -15,6 +15,7 @@ import NotFound from "./pages/NotFound";
 import Calculator from "./pages/Calculator";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import ActuarialCalculator from './components/ActuarialCalculator';
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTopButton/>
+        <LanguageSwitcher />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />

@@ -1,8 +1,10 @@
 
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="bg-navy-600 text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,7 +16,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-gray-300 mb-6">
-              Professional actuarial consultancy services for insurance, employee welfare benefits, retirement funds and health warranty, and actuary workshop.
+              {t("footer.description")}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-gold-500">
@@ -33,43 +35,43 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-6">{t("footer.quickLinks")}</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-gold-500">Home</Link>
+                <Link to="/" className="text-gray-300 hover:text-gold-500">{t("nav.Home")}</Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-gold-500">About Us</Link>
+                <Link to="/about" className="text-gray-300 hover:text-gold-500">{t("nav.About")}</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-gold-500">Services</Link>
+                <Link to="/services" className="text-gray-300 hover:text-gold-500">{t("nav.Services")}</Link>
               </li>
               <li>
-                <Link to="/clients" className="text-gray-300 hover:text-gold-500">Clients</Link>
+                <Link to="/clients" className="text-gray-300 hover:text-gold-500">{t("nav.Clients")}</Link>
               </li>
               <li>
-                <Link to="/calculator" className="text-gray-300 hover:text-gold-500">Calculator</Link>
+                <Link to="/calculator" className="text-gray-300 hover:text-gold-500">{t("nav.Calculator")}</Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-gold-500">Contact</Link>
+                <Link to="/contact" className="text-gray-300 hover:text-gold-500">{t("nav.Contact")}</Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Services</h3>
+            <h3 className="text-lg font-semibold mb-6">{t("nav.Services")}</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-gold-500">Employee Welfare Benefits</Link>
+                <Link to="/services" className="text-gray-300 hover:text-gold-500">{t("services.welfare.title")}</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-gold-500">Retirement Funds and Health Warranty</Link>
+                <Link to="/services" className="text-gray-300 hover:text-gold-500">{t("services.retirement.title")}</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-gold-500">Insurance Consulting</Link>
+                <Link to="/services" className="text-gray-300 hover:text-gold-500">{t("services.insurance.title")}</Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-gold-500">Actuary Workshop</Link>
+                <Link to="/services" className="text-gray-300 hover:text-gold-500">{t("services.workshop.title")}</Link>
               </li>
               {/*<li>
                 <Link to="/services" className="text-gray-300 hover:text-gold-500">Actuarial Auditing</Link>
@@ -78,7 +80,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact</h3>
+            <h3 className="text-lg font-semibold mb-6">{t("nav.Contact")}</h3>
             <ul className="space-y-4">
               <li className="flex">
                 <MapPin className="h-5 w-5 text-gold-500 mr-3 flex-shrink-0" />

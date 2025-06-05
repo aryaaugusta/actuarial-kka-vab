@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "Home": "Beranda",
+    "About": "Tentang",
+    "Services": "Layanan",
+    "Clients": "Klien",
+    "Blog": "Blog",
+    "Calculator": "Kalkulator",
+    "Contact": "Kontak"
+  },
+  "hero": {
+    "titleLine1": "Layanan Aktuaria",
+    "titleLine2": "Profesional dan Terpercaya",
+    "description": "Menyediakan solusi aktuaria yang komprehensif untuk perusahaan asuransi, manfaat kesejahteraan karyawan, dana pensiun, jaminan kesehatan, dan pelatihan aktuaria selama lebih dari 20 tahun.",
+    "buttonServices": "Layanan Kami",
+    "buttonContact": "Hubungi Kami"
+  },
+  "home": {
+    "about": {
+      "title": "Keahlian Aktuaria Terpercaya Sejak 2010",
+      "description1": "KKA VAB menyediakan layanan aktuaria berkualitas tinggi untuk membantu bisnis dalam menavigasi perusahaan asuransi yang kompleks, tunjangan kesejahteraan karyawan, dana pensiun dan jaminan kesehatan serta lokakarya aktuaria. Dengan pengalaman lebih dari 20 tahun, tim aktuaris bersertifikat kami memberikan solusi khusus yang mendorong pengambilan keputusan strategis dan stabilitas keuangan.",
+      "description2": "Pengetahuan industri kami yang mendalam, ketelitian analitis, dan komitmen kami terhadap keunggulan telah menjadikan kami mitra tepercaya bagi perusahaan asuransi, tunjangan kesejahteraan karyawan, dana pensiun, jaminan kesehatan, dan bengkel aktuaria terkemuka di seluruh Asia.",
+      "button": "Pelajari Lebih Lanjut Tentang Kami"
+    },
+    "servicesTitle": "Layanan Unggulan Kami",
+    "servicesDesc": "Solusi aktuaria menyeluruh yang disesuaikan dengan kebutuhan organisasi Anda",
+    "cta": {
+      "title": "Siap Mengubah Strategi Keuangan Anda?",
+      "description": "Tim aktuaris ahli kami siap membantu Anda menghadapi tantangan finansial yang kompleks...",
+      "contactBtn": "Hubungi Kami Sekarang",
+      "servicesBtn": "Lihat Layanan"
+    },
+    "countClient": {
+      "title": "Klien yang puas di berbagai sektor industri"
+    }
+  },
+  "services": {
+    "insurance": {
+      "title": "Konsultasi Asuransi",
+      "description": "Membantu penyusunan Filing Produk Baru Asuransi Jiwa dan Asuransi Umum."
+    },
+    "retirement": {
+      "title": "Dana Pensiun dan Jaminan Kesehatan",
+      "description": "Membantu penyusunan, pendirian, dan pembubaran Dana Pensiun (DPPK & DPLK)."
+    },
+    "welfare": {
+      "title": "Manfaat Kesejahteraan Karyawan",
+      "description": "Menghitung estimasi kewajiban dan beban imbalan kerja sesuai standar akuntansi."
+    },
+    "workshop": {
+      "title": "Pelatihan Aktuaria",
+      "description": "Memfasilitasi persiapan mengikuti ujian profesi Aktuaris dengan memberikan pelatihan."
+    },
+    "button": "Lihat Semua Layanan"
+  },
+  "footer": {
+    "description": "Jasa konsultasi aktuaria profesional untuk asuransi, tunjangan kesejahteraan karyawan, dana pensiun dan jaminan kesehatan, serta pelatihan aktuaria.",
+    "quickLinks": "Tautan Cepat"
+  },
+  "about": {
+    "publicActuary": {
+      "name": "V. Agus Basuki FSAI",
+      "position": "Aktuaris Publik dan Pemimpin Perusahaan",
+      "bio": "Agus Basuki adalah pimpinan dan publik aktuaris perusahaan yang memiliki pengalaman dalam bidang aktuaria program pensiun dan imbalan Pasca Kerja sejak tahun 2007. la mempunyai pendidikan terakhir sebagai sarjana Matematika ITB dan telah menyandang gelar Fellow of the Society of Actuaries of Indonesia sejak tahun 2016."
+    },
+    "seniorCons": {
+      "name": "Albert Charles Sompie, SE",
+      "position": "Konsultan Senior",
+      "bio": "Albert adalah konsultan senior yang telah bergabung dengan kami sejak tahun 2017 dan telah memiliki pengalaman dalam bidang aktuaria program pensiun, asuransi jiwa dan imbalan pasca kerja lebih dari 20 tahun di Biro Pusat Aktuaria. la membantu klien dalam bidang konsultasi Imbalan Pasca Keria (PSAK 24)."
+    },
+    "lifeIns": {
+      "name": "Serarindramulia, SE FSAI",
+      "position": "Pakar Asuransi Jiwa",
+      "bio": "Rarindra adalah tenaga ahli asuransi jiwa yang telah memiliki pengalaman dalam bidang aktuaria lebih dari 20 tahun di beberapa perusahaan asuransi jiwa joint venture di Jakarta maupun di Singapore, antara lain di Sun Life Finance and Swiss Re Singapore. la mempunyai pendidikan terakhir sebagai sarjana ekonomi extension dan diploma aktuaria dari Universitas Indonesia dan telah menyandang gelar Fellow of the Society of Actuaries of Indonesia sejak tahun 2011."
+    },
+    "it": {
+      "name": "Arya Ananggadipa Augusta, SKOM",
+      "position": "IT Support",
+      "bio": "Arya adalah tenaga ahli dalam bidang IT support yang merupakan lulusan dari Universitas Bina Nusantara (Binus)."
+    },
+    "acc": {
+      "name": "Rachel, SE",
+      "position": "Staf Accounting, Finance and Tax",
+      "bio": "Rachel adalah tenaga ahli dalam bidang Accounting, Finance dan Tax yang merupakan lulusan dari Universitas Trisakti."
+    },
+    "tele": {
+      "name": "Skolastika Asclepias",
+      "position": "Staf Telemarketing",
+      "bio": "Ascle adalah tenaga ahli dalam bidang Telemarketing yang merupakan lulusan dari Universitas Bina Nusantara."
+    },
+    "admin": {
+      "name": "Jonathan, SE",
+      "position": "Staf Admin",
+      "bio": "Jonathan adalah tenaga Administrasi yang merupakan lulusan dari Universitas Diponegoro."
+    },
+    "title": "Tentang KKA VAB",
+    "description": "Membangun ketahanan finansial melalui analisis aktuaria ahli dan konsultasi strategis.",
+    "story": "Cerita Kami",
+    "storyDesc1": "Kantor Konsultan Aktuaria V. Agus Basuki atau biasa disingkat dengan KKA VAB adalah perusahaan yang bergerak dalam jasa aktuaria, meliputi jasa imbalan pasca kerja, asuransi dan dana pension, yang dipimpin oleh V. Agus Basuki FSAI dengan surat izin aktuaris publik sebagai berikut:",
+    "storyDesc2": "Kementrian Keuangan RI no. 738/KM.1/2018 tanggal 28 November 2018 dan no. Izin Aktuaris Publik : Act-1.18.00135.",
+    "storyDesc3": "Surat tanda terdaftar di OJK : Konsultan Aktuaria Industri Keuangan Non-Bank Nomor 035/NB.122/STTD-KA/2021 tanggal 9 Maret 2021.",
+    "storyDesc4": "Sejak tahun 2010, kami melayani jasa aktuaria imbalan Pasca Kerja saja dengan perusahaan PT LASTIKA DIPA hingga berdirinya KKA VAB pada tanggal 24 Oktober 2019.",
+    "years": "Tahun lebih menjadi yang terbaik",
+    "ourVision": "Visi Kami",
+    "ourMission": "Misi Kami",
+    "vision": "Menjadi konsultan aktuaria terkemuka di Asia, yang diakui atas keunggulan teknis, solusi inovatif, dan komitmen yang tak tergoyahkan untuk kesuksesan klien kami.",
+    "mission": "Memberdayakan organisasi untuk membuat keputusan keuangan yang tepat melalui analisis aktuaria ahli, konsultasi strategis, dan solusi inovatif yang mendorong pertumbuhan berkelanjutan dan menciptakan nilai yang langgeng bagi klien dan masyarakat.",
+    "coreValue": {
+      "title": "Nilai-nilai Dasar Kami",
+      "value1": "Keunggulan",
+      "description1": "Memberikan kualitas terbaik dalam setiap aspek pekerjaan kami",
+      "value2": "Integritas",
+      "description2": "Mempertahankan kejujuran dan standar etika yang tak tergoyahkan",
+      "value3": "Inovasi",
+      "description3": "Terus meningkatkan metode dan pendekatan kami",
+      "value4": "Kolaborasi",
+      "description4": "Bekerja sama dengan klien untuk mencapai tujuan mereka"
+    },
+    "team": {
+      "title": "Temui Tim Ahli Kami",
+      "description": "Tim kami yang terdiri dari aktuaris bersertifikat dan ahli keuangan yang beragam membawa banyak pengetahuan dan pengalaman untuk setiap keterlibatan klien."
+    },
+    "stats": {
+      "completed": "Perhitungan Aktuaria Selesai",
+      "yearsExp": "Tahun Pengalaman",
+      "satClients": "Klien Yang Puas"
+    }
+  }
+}
