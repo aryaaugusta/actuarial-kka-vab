@@ -28,7 +28,7 @@ export default function ManfaatKaryawanCalculator() {
         manfaatPensiunTahunan: number;
         nilaiKiniKewajiban: number;
         akumulasiManfaat: number;
-        manfaatJHT: number;
+        /*manfaatJHT: number;*/
         nilaiKiniPensiun: number;
         nilaiKiniMeninggal: number;
         nilaiKiniCacat: number;
@@ -125,9 +125,9 @@ export default function ManfaatKaryawanCalculator() {
             const nilaiKiniKewajiban = manfaatPensiunTahunan * (1 - Math.pow(1 + diskonto, -20)) / diskonto;
 
             // Hitung manfaat JHT (sesuai UUCK)
-            const manfaatJHT = metodePensiun === 'normal'
+            /*const manfaatJHT = metodePensiun === 'normal'
                 ? (masaKerja + sisaMasaKerja) * 0.1 * gajiProyeksi
-                : (masaKerja + sisaMasaKerja) * 0.08 * gajiProyeksi;
+                : (masaKerja + sisaMasaKerja) * 0.08 * gajiProyeksi;*/
 
             const nilaiKiniTotal = nilaiKiniPensiun + nilaiKiniMeninggal + nilaiKiniCacat;
 
@@ -154,7 +154,7 @@ export default function ManfaatKaryawanCalculator() {
             }
 
             setHasil({
-                tglValuasi: format(tglValuasi, 'dd/MM/yyyy'),
+                tglValuasi: format(tglValuasi, 'dd /MM/yyyy'),
                 usiaSekarang,
                 masaKerja,
                 sisaMasaKerja,
@@ -162,7 +162,7 @@ export default function ManfaatKaryawanCalculator() {
                 manfaatPensiunTahunan,
                 nilaiKiniKewajiban,
                 akumulasiManfaat,
-                manfaatJHT,
+                /*manfaatJHT,*/
                 detailProyeksi,
                 nilaiKiniPensiun,
                 nilaiKiniMeninggal,
@@ -199,7 +199,7 @@ export default function ManfaatKaryawanCalculator() {
 
     return (
         <div className="manfaat-karyawan-container h1">
-            <h1>Kalkulator Manfaat Karyawan (PSAK 24 & JHT)</h1>
+            <h1>Kalkulator Manfaat Karyawan (PSAK 24)</h1>
 
             <div className="input-section">
                 <div className="input-group">
@@ -261,7 +261,7 @@ export default function ManfaatKaryawanCalculator() {
                     />
                 </div>
 
-                <div className="input-group">
+                {/*<div className="input-group">
                     <label>Metode Pensiun:</label>
                     <select
                         value={metodePensiun}
@@ -270,7 +270,7 @@ export default function ManfaatKaryawanCalculator() {
                         <option value="normal">Normal</option>
                         <option value="dipercepat">Dipercepat</option>
                     </select>
-                </div>
+                </div>*/}
 
                 <div className="input-group">
                     <label>Tingkat Inflasi (BI):</label>
@@ -344,10 +344,10 @@ export default function ManfaatKaryawanCalculator() {
                             <span>Akumulasi Manfaat:</span>
                             <strong>{formatRupiah(hasil.akumulasiManfaat)}/tahun</strong>
                         </div>
-                        <div className="result-item highlight">
+                        {/*<div className="result-item highlight">
                             <span>Manfaat JHT (UUCK):</span>
                             <strong>{formatRupiah(hasil.manfaatJHT)}</strong>
-                        </div>
+                        </div>*/}
                         <div className="result-item highlight">
                             <span>Nilai Kini - Pensiun:</span>
                             <strong>{formatRupiah(hasil.nilaiKiniPensiun)}</strong>
@@ -397,13 +397,11 @@ export default function ManfaatKaryawanCalculator() {
                     </div>
 
                     <div className="disclaimer">
-                        <h3>Catatan:</h3>
+                        <h3>Catatan:</h3>u
                         <ul>
-                            <li>Perhitungan mengacu pada PSAK 24 (Manfaat Karyawan) dan peraturan JHT BPJS
-                                Ketenagakerjaan
-                            </li>
+                            <li>Perhitungan mengacu pada PSAK 24 (Manfaat Karyawan)</li>
                             <li>Asumsi manfaat pensiun: 2% per tahun masa kerja dari gaji terakhir</li>
-                            <li>Manfaat JHT dihitung berdasarkan ketentuan UU Cipta Kerja</li>
+                            {/*<li>Manfaat JHT dihitung berdasarkan ketentuan UU Cipta Kerja</li>*/}
                             <li>Proyeksi gaji menggunakan tingkat inflasi Bank Indonesia</li>
                             <li>Nilai kini kewajiban dihitung dengan metode projected unit credit</li>
                             <li>Hasil perhitungan adalah estimasi aktuarial dan dapat berbeda dengan realitas</li>

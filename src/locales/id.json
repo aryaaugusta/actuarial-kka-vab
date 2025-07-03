@@ -34,7 +34,7 @@
       "title": "Klien yang puas di berbagai sektor industri"
     }
   },
-  "services": {
+  "featuredServices": {
     "insurance": {
       "title": "Konsultasi Asuransi",
       "description": "Membantu penyusunan Filing Produk Baru Asuransi Jiwa dan Asuransi Umum."
@@ -124,6 +124,131 @@
       "completed": "Perhitungan Aktuaria Selesai",
       "yearsExp": "Tahun Pengalaman",
       "satClients": "Klien Yang Puas"
+    }
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "description": "Solusi aktuaria komprehensif yang disesuaikan dengan kebutuhan unik organisasi Anda",
+    "overview": {
+      "title": "Keunggulan Aktuaria Siap Melayani Anda",
+      "description": "Tim aktuaris ahli kami menyediakan berbagai layanan komprehensif yang dirancang untuk membantu organisasi Anda menghadapi tantangan keuangan yang kompleks dan meraih peluang."
+    },
+    "insurance": {
+      "title": "Konsultasi Asuransi",
+      "description": "Membantu persiapan Pengajuan Produk Baru Asuransi Jiwa dan Asuransi Umum. Pengecekan ulang formula dan asumsi yang digunakan untuk produk Asuransi Jiwa, Umum, & Kesehatan, perhitungan dan validasi Cadangan Premi untuk perusahaan asuransi jiwa dan umum, perhitungan cadangan klaim, UPR, dan URR untuk Asuransi Jiwa, Umum, dan Kesehatan, Perhitungan Tarif Kendaraan Bermotor berdasarkan klaim perusahaan sebelumnya. Jasa lainnya yang diperlukan sesuai dengan kebutuhan masing-masing pengguna jasa, termasuk second opinion dari Aktuaris yang mungkin diperlukan sebagai pembanding.",
+      "keyBenefit1": "Dukungan Pengajuan Produk - Bantuan dalam mempersiapkan pengajuan produk baru Asuransi Jiwa dan Asuransi Umum.",
+      "keyBenefit2": "Akurasi Teknis - Peninjauan formula dan asumsi untuk memastikan kepatuhan dan kesehatan.",
+      "keyBenefit3": "Validasi Cadangan - Perhitungan cadangan premi, klaim, UPR, dan URR yang akurat.",
+      "keyBenefit4": "Analisis Tarif - Perhitungan tarif kendaraan bermotor berdasarkan data historis klaim.",
+      "keyBenefit5": "Akurasi Teknis - Peninjauan formula dan asumsi untuk memastikan kepatuhan dan kesehatan."
+    },
+    "retirement": {
+      "title": "Dana Pensiun dan Jaminan Kesehatan",
+      "description": "Membantu persiapan dan pendirian Dana Pensiun serta pembubaran Dana Pensiun (DPPK & DPLK). Perhitungan dan ilustrasi biaya program kesehatan untuk peserta aktif dan pensiunan. Valuasi dana pensiun dan simulasi perhitungan manfaat pensiun; studi Asuransi kesehatan karyawan untuk mendapatkan opsi terbaik bagi Perusahaan termasuk pendanaan, kelembagaan dan operasional penyelenggaraan asuransi kesehatan.",
+      "keyBenefit1": "Dukungan Dana Pensiun End-to-End - Bantuan dalam mendirikan atau membubarkan skema DPPK & DPLK.",
+      "keyBenefit2": "Perkiraan Biaya Kesehatan - Estimasi biaya untuk program perawatan kesehatan bagi karyawan dan pensiunan.",
+      "keyBenefit3": "Simulasi Manfaat Pensiun - Penilaian dan proyeksi manfaat pensiun karyawan yang akurat.",
+      "keyBenefit4": "Optimalisasi Asuransi Kesehatan - Evaluasi untuk memilih solusi asuransi kesehatan yang paling efektif.",
+      "keyBenefit5": "Implementasi Komprehensif - Panduan tentang pendanaan, struktur, dan operasi program kesehatan."
+    },
+    "welfare": {
+      "title": "Manfaat Kesejahteraan Karyawan",
+      "description": "Menghitung estimasi Liabilitas dan Beban Imbalan Pasti berdasarkan ketentuan standar akuntansi imbalan kerja untuk periode yang diminta dengan memperhatikan kebijakan perusahaan, Undang-Undang Ketenagakerjaan No. 13 Tahun 2003, dan peraturan lain yang berlaku bagi perusahaan untuk memenuhi laporan keuangan berdasarkan PSAK-24 (Imbalan Kerja), International Accounting Standards (IAS), dan Standar Akuntansi lainnya, termasuk SAK ETAP.",
+      "keyBenefit1": "Kepatuhan terhadap Peraturan - Selaras dengan PSAK 24, IAS, dan UU Ketenagakerjaan No. 13/2003.",
+      "keyBenefit2": "Pelaporan Keuangan yang Akurat - Memastikan pengakuan yang tepat atas kewajiban dan beban imbalan kerja.",
+      "keyBenefit3": "Mitigasi Risiko Hukum - Mematuhi kewajiban hukum kepada karyawan berdasarkan hukum yang berlaku.",
+      "keyBenefit4": "Perencanaan Keuangan yang Lebih Baik - Memberikan dasar yang dapat diandalkan untuk penganggaran dan proyeksi jangka panjang.",
+      "keyBenefit5": "Transparansi Pemangku Kepentingan - Meningkatkan kepercayaan dari investor dan auditor melalui pengungkapan yang dapat diandalkan."
+    },
+    "workshop": {
+      "title": "Pelatihan Aktuaris",
+      "description": "Memfasilitasi persiapan mengikuti ujian profesi Aktuaris dengan memberikan pelatihan mengenai perhitungan dana Pensiun, PSAK-24, dan pengetahuan mengenai perhitungan cadangan teknis untuk perusahaan asuransi jiwa dan asuransi umum, serta pelatihan untuk sumber daya non aktuaria.",
+      "keyBenefit1": "Kesiapan Ujian - Dukungan untuk persiapan ujian Aktuaris melalui pelatihan terfokus.",
+      "keyBenefit2": "Keterampilan Praktis - Pelatihan perhitungan dana pensiun dan aplikasi PSAK-24.",
+      "keyBenefit3": "Penguasaan Teknis - Pemahaman yang lebih mendalam tentang perhitungan cadangan teknis untuk asuransi.",
+      "keyBenefit4": "Pelatihan Inklusif - Program yang tersedia untuk staf aktuaria dan non-aktuaria.",
+      "keyBenefit5": "Pengembangan Profesional - Meningkatkan kompetensi yang relevan dengan sektor asuransi dan pensiun."
+    },
+    "process": {
+      "title": "Proses Konsultasi Kami",
+      "description": "Kami mengikuti pendekatan yang terstruktur namun fleksibel untuk memastikan kami memberikan solusi yang sesuai dengan kebutuhan Anda",
+      "step1": {
+        "name": "Langkah 1",
+        "title": "Penemuan & Analisis",
+        "description": "Kami memulai dengan memahami secara menyeluruh kebutuhan, tantangan, dan tujuan unik organisasi Anda melalui konsultasi dan analisis data yang mendalam."
+      },
+      "step2": {
+        "name": "Langkah 2",
+        "title": "Pengembangan Strategi",
+        "description": "Aktuaris ahli kami merancang solusi dan strategi yang disesuaikan berdasarkan analisis yang ketat dan praktik terbaik di industri."
+      },
+      "step3": {
+        "name": "Langkah 3",
+        "title": "Implementasi",
+        "description": "Kami bekerja sama dengan tim Anda untuk mengimplementasikan solusi secara efisien, memberikan panduan dan dukungan yang jelas selama proses berlangsung."
+      },
+      "step4": {
+        "name": "Langkah 4",
+        "title": "Dukungan & Pengoptimalan Berkelanjutan",
+        "description": "Kami menyediakan pemantauan berkelanjutan, tinjauan berkala, dan pengoptimalan yang berkelanjutan untuk memastikan kesuksesan jangka panjang dan adaptasi terhadap keadaan yang berubah."
+      }
+    },
+    "transform": {
+      "title": "Siap Mengubah Strategi Keuangan Anda?",
+      "description": "Hubungi kami hari ini untuk mendiskusikan bagaimana keahlian aktuaria kami dapat membantu organisasi Anda berkembang.",
+      "button": "Jadwalkan Konsultasi"
+    }
+  },
+  "clients": {
+    "title": "Klien Kami",
+    "description": "Dipercaya oleh organisasi-organisasi terkemuka di seluruh Asia untuk memberikan solusi aktuaria yang luar biasa",
+    "logo": {
+      "title": "Dipercaya oleh Pemimpin Industri",
+      "description": "Kami memiliki hak istimewa untuk bekerja sama dengan ratusan organisasi di berbagai industri."
+    },
+    "cta": {
+      "title": "Bergabunglah dengan Portofolio Klien Kami yang Terus Berkembang",
+      "description": "Temukan bagaimana KKA VAB dapat memberikan solusi aktuaria yang disesuaikan untuk organisasi Anda.",
+      "button": "Hubungi Kami Hari Ini"
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "description": "Hubungi kami untuk mendiskusikan bagaimana keahlian aktuaria kami dapat membantu perusahaan Anda berkembang",
+    "information": {
+      "title": "Get In Touch",
+      "description1": "Ada pertanyaan tentang layanan kami atau ingin mendiskusikan bagaimana kami dapat membantu perusahaan Anda?",
+      "description2": "Tim ahli kami siap membantu Anda. Isi formulir atau gunakan detail kontak di bawah ini untuk menghubungi kami.",
+      "address": {
+        "title": "Kantor Kami",
+        "description1": "Jl. Flamboyan II no.14 blok X-8 Taman Cimanggu",
+        "description2": "Kota Bogor, Indonesia"
+      },
+      "phone": {
+        "title": "Telepon",
+        "description1": "+62 81919 056000",
+        "description2": "+62 81919 190560"
+      },
+      "email": {
+        "title": "Email",
+        "description": "agus05lastika@gmail.com"
+      },
+      "officeHours": {
+        "title": "Jam Kerja Kami",
+        "description1": "Monday-Friday: 9am - 6pm",
+        "description2": "Saturday-Sunday: Closed"
+      }
+    },
+    "form": {
+      "title": "Kirimkan pesan kepada kami",
+      "fullName": "Nama Lengkap*",
+      "email": "Alamat Email*",
+      "company": "Perusahaan",
+      "phoneNum": "No. Telepon",
+      "services": "Layanan yang diminati",
+      "message": "Pesan Anda*",
+      "button": "Kirim Pesan",
+      "agree": "Dengan mengirimkan formulir ini, Anda menyetujui kebijakan privasi kami. Kami tidak akan pernah membagikan informasi Anda dengan pihak ketiga."
     }
   }
 }

@@ -13,23 +13,23 @@ const Index = () => {
     const featuredServices = [
         {
             icon: <ShieldCheck className="h-6 w-6"/>,
-            title: t("services.insurance.title"),
-            description: t("services.insurance.description")
+            title: t("featuredServices.insurance.title"),
+            description: t("featuredServices.insurance.description")
         },
         {
             icon: <Receipt className="h-6 w-6"/>,
-            title: t("services.retirement.title"),
-            description: t("services.retirement.description")
+            title: t("featuredServices.retirement.title"),
+            description: t("featuredServices.retirement.description")
         },
         {
             icon: <Calculator className="h-6 w-6"/>,
-            title: t("services.welfare.title"),
-            description: t("services.welfare.description")
+            title: t("featuredServices.welfare.title"),
+            description: t("featuredServices.welfare.description")
         },
         {
             icon: <BookMarked className="h-6 w-6"/>,
-            title: t("services.workshop.title"),
-            description: t("services.workshop.description")
+            title: t("featuredServices.workshop.title"),
+            description: t("featuredServices.workshop.description")
         }
     ];
 
@@ -109,7 +109,7 @@ const Index = () => {
                         <div className="mt-12 text-center">
                             <Link to="/services">
                                 <Button className="bg-navy-600 hover:bg-navy-700 text-white">
-                                    {t("services.button")}
+                                    {t("featuredServices.button")}
                                 </Button>
                             </Link>
                         </div>

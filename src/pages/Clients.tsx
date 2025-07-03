@@ -4,8 +4,10 @@ import Footer from "@/components/Footer";
 import ClientLogo from "@/components/ClientLogo";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const Clients = () => {
+  const {t} = useTranslation();
   // Placeholder client logos
   const clients = [
     { name: "Insurance Corp", logo: "images/clients/sinarmas-asuransi.png" },
@@ -79,9 +81,9 @@ const Clients = () => {
         <section className="bg-navy-600 text-white py-20 md:py-28">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Clients</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">{t("clients.title")}</h1>
               <p className="text-xl text-gray-200">
-                Trusted by leading organizations across Asia to deliver exceptional actuarial solutions
+                {t("clients.description")}
               </p>
             </div>
           </div>
@@ -92,10 +94,10 @@ const Clients = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-navy-700 dark:text-white mb-4">
-                Trusted by Industry Leaders
+                {t("clients.logo.title")}
               </h2>
               <p className="max-w-2xl mx-auto text-navy-600 dark:text-gray-300">
-                We've had the privilege of working with hundreds of organizations across various industries.
+                {t("clients.logo.description")}
               </p>
             </div>
             
@@ -203,13 +205,13 @@ const Clients = () => {
         <section className="py-16 bg-navy-600 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Join Our Growing Client Portfolio</h2>
+              <h2 className="text-3xl font-bold mb-6">{t("clients.cta.title")}</h2>
               <p className="text-xl text-gray-300 mb-8">
-                Discover how KKA VAB can deliver tailored actuarial solutions for your organization.
+                {t("clients.cta.description")}
               </p>
               <Link to="/contact">
                 <Button className="bg-gold-500 hover:bg-gold-600 text-navy-900 px-8 py-3 text-lg">
-                  Contact Us Today
+                  {t("clients.cta.button")}
                 </Button>
               </Link>
             </div>

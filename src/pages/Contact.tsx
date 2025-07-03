@@ -16,8 +16,10 @@ import {
 } from "@/components/ui/select";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
+  const {t} = useTranslation();
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
@@ -41,7 +43,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       toast({
@@ -64,32 +66,32 @@ const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      
+
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-navy-600 text-white py-20 md:py-28">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">{t("contact.title")}</h1>
               <p className="text-xl text-gray-200">
-                Reach out to discuss how our actuarial expertise can help your organization thrive
+                {t("contact.description")}
               </p>
             </div>
           </div>
         </section>
-        
+
         {/* Contact Info and Form */}
         <section className="py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Contact Information */}
               <div>
-                <h2 className="text-3xl font-bold text-navy-700 dark:text-white mb-8">Get In Touch</h2>
+                {/*<h2 className="text-3xl font-bold text-navy-700 dark:text-white mb-8">Get In Touch</h2>*/}
                 <p className="text-navy-600 dark:text-gray-300 mb-8">
-                  Have questions about our services or want to discuss how we can help your organization? 
-                  Our team of experts is ready to assist you. Fill out the form or use the contact details below to reach out to us.
+                  {t("contact.information.description1")}
+                  {t("contact.information.description2")}
                 </p>
-                
+
                 <div className="space-y-6">
                   <Card>
                     <CardContent className="flex items-start p-6">
@@ -97,76 +99,76 @@ const Contact = () => {
                         <MapPin className="h-6 w-6 text-navy-600 dark:text-gold-400" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">Our Office</h3>
-                        <p className="text-navy-600 dark:text-gray-300">Jl. Flamboyan II no.14 blok X-8 Taman Cimanggu<br />Kota Bogor, Indonesia</p>
+                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">{t("contact.information.address.title")}</h3>
+                        <p className="text-navy-600 dark:text-gray-300">{t("contact.information.address.description1")}<br />{t("contact.information.address.description2")}</p>
                       </div>
                     </CardContent>
                   </Card>
-                  
+
                   <Card>
                     <CardContent className="flex items-start p-6">
                       <div className="bg-navy-50 dark:bg-navy-800 rounded-full p-3 mr-4">
                         <Phone className="h-6 w-6 text-navy-600 dark:text-gold-400" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">Phone</h3>
-                        <p className="text-navy-600 dark:text-gray-300">+62 81919 056000</p>
-                        <p className="text-navy-600 dark:text-gray-300">+62 81919 190560</p>
+                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">{t("contact.information.phone.title")}</h3>
+                        <p className="text-navy-600 dark:text-gray-300">{t("contact.information.phone.description1")}</p>
+                        <p className="text-navy-600 dark:text-gray-300">{t("contact.information.phone.description1")}</p>
                       </div>
                     </CardContent>
                   </Card>
-                  
+
                   <Card>
                     <CardContent className="flex items-start p-6">
                       <div className="bg-navy-50 dark:bg-navy-800 rounded-full p-3 mr-4">
                         <Mail className="h-6 w-6 text-navy-600 dark:text-gold-400" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">Email</h3>
-                        <p className="text-navy-600 dark:text-gray-300">agus05lastika@gmail.com</p>
+                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">{t("contact.information.email.title")}</h3>
+                        <p className="text-navy-600 dark:text-gray-300">{t("contact.information.email.description")}</p>
                       </div>
                     </CardContent>
                   </Card>
-                  
+
                   <Card>
                     <CardContent className="flex items-start p-6">
                       <div className="bg-navy-50 dark:bg-navy-800 rounded-full p-3 mr-4">
                         <Clock className="h-6 w-6 text-navy-600 dark:text-gold-400" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">Office Hours</h3>
-                        <p className="text-navy-600 dark:text-gray-300">Monday-Friday: 9am - 6pm</p>
-                        <p className="text-navy-600 dark:text-gray-300">Saturday-Sunday: Closed</p>
+                        <h3 className="font-bold text-navy-700 dark:text-white mb-1">{t("contact.information.officeHours.title")}</h3>
+                        <p className="text-navy-600 dark:text-gray-300">{t("contact.information.officeHours.description1")}</p>
+                        <p className="text-navy-600 dark:text-gray-300">{t("contact.information.officeHours.description2")}</p>
                       </div>
                     </CardContent>
                   </Card>
                 </div>
               </div>
-              
+
               {/* Contact Form */}
               <div>
                 <Card className="border-2 border-gray-100 dark:border-navy-700">
                   <CardContent className="p-8">
-                    <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-6">Send Us a Message</h3>
-                    
+                    <h3 className="text-2xl font-bold text-navy-700 dark:text-white mb-6">{t("contact.form.title")}</h3>
+
                     <form onSubmit={handleSubmit} className="space-y-6">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="space-y-2">
-                          <Label htmlFor="name">Full Name*</Label>
-                          <Input 
-                            id="name" 
-                            name="name" 
+                          <Label htmlFor="name">{t("contact.form.fullName")}</Label>
+                          <Input
+                            id="name"
+                            name="name"
                             value={formData.name}
                             onChange={handleChange}
                             required
                           />
                         </div>
-                        
+
                         <div className="space-y-2">
-                          <Label htmlFor="email">Email Address*</Label>
-                          <Input 
-                            id="email" 
-                            name="email" 
+                          <Label htmlFor="email">{t("contact.form.email")}</Label>
+                          <Input
+                            id="email"
+                            name="email"
                             type="email"
                             value={formData.email}
                             onChange={handleChange}
@@ -174,66 +176,66 @@ const Contact = () => {
                           />
                         </div>
                       </div>
-                      
+
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="space-y-2">
-                          <Label htmlFor="company">Company</Label>
-                          <Input 
-                            id="company" 
+                          <Label htmlFor="company">{t("contact.form.company")}</Label>
+                          <Input
+                            id="company"
                             name="company"
                             value={formData.company}
                             onChange={handleChange}
                           />
                         </div>
-                        
+
                         <div className="space-y-2">
-                          <Label htmlFor="phone">Phone Number</Label>
-                          <Input 
-                            id="phone" 
+                          <Label htmlFor="phone">{t("contact.form.phoneNum")}</Label>
+                          <Input
+                            id="phone"
                             name="phone"
                             value={formData.phone}
                             onChange={handleChange}
                           />
                         </div>
                       </div>
-                      
+
                       <div className="space-y-2">
-                        <Label htmlFor="service">Service of Interest*</Label>
-                        <Select value={formData.service} onValueChange={handleSelectChange} required>
-                          <SelectTrigger>
+                        <Label htmlFor="service">{t("contact.form.services")}</Label>
+                        <Select required value={formData.service} onValueChange={handleSelectChange}>
+                          <SelectTrigger id="service" name="service">
                             <SelectValue placeholder="Select a service" />
                           </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="employee-welfare-benefits">Employee Welfare Benefits</SelectItem>
-                            <SelectItem value="retirement-funds-and-health-warranty">Retirement Funds and Health Warranty</SelectItem>
-                            <SelectItem value="insurance-consulting">Insurance Consulting</SelectItem>
-                            <SelectItem value="actuary-workshop">Actuary Training</SelectItem>
+                          <SelectContent id="service" name="service">
+                            <SelectItem id="service" name="service" value="employee-welfare-benefits">Employee Welfare Benefits</SelectItem>
+                            <SelectItem id="service" name="service" value="retirement-funds-and-health-warranty">Retirement Funds and Health Warranty</SelectItem>
+                            <SelectItem id="service" name="service" value="insurance-consulting">Insurance Consulting</SelectItem>
+                            <SelectItem id="service" name="service" value="actuary-workshop">Actuary Training</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
-                      
+
                       <div className="space-y-2">
-                        <Label htmlFor="message">Your Message*</Label>
-                        <Textarea 
-                          id="message" 
-                          name="message" 
+                        <Label htmlFor="message">{t("contact.form.message")}</Label>
+                        <Textarea
+                          id="message"
+                          name="message"
                           rows={5}
                           value={formData.message}
                           onChange={handleChange}
                           required
                         />
                       </div>
-                      
-                      <Button 
-                        type="submit" 
+
+                      <Button
+                        type="submit"
                         className="w-full bg-navy-600 hover:bg-navy-700 text-white"
                         disabled={isSubmitting}
                       >
-                        {isSubmitting ? "Sending..." : "Send Message"}
+                        {isSubmitting ? "Sending..." : t("contact.form.button")}
                       </Button>
-                      
+
                       <p className="text-sm text-navy-500 dark:text-gray-400">
-                        By submitting this form, you agree to our privacy policy. We will never share your information with third parties.
+                        {t("contact.form.agree")}
                       </p>
                     </form>
                   </CardContent>
@@ -242,7 +244,7 @@ const Contact = () => {
             </div>
           </div>
         </section>
-        
+
         {/* Map */}
         {/*<section className="py-16 bg-navy-50 dark:bg-navy-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -256,7 +258,7 @@ const Contact = () => {
           </div>
         </section>*/}
       </main>
-      
+
       <Footer />
     </div>
   );

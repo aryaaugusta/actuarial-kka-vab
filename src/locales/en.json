@@ -34,7 +34,7 @@
       "title": "Satisfied clients across various industry sectors"
     }
   },
-  "services": {
+  "featuredServices": {
     "insurance": {
       "title": "Insurance Consulting",
       "description": "Assist the preparation of Filing for Life Insurance and General Insurance New Products."
@@ -124,6 +124,131 @@
       "completed": "Actuarial Calculation Completed",
       "yearsExp": "Years of Experience",
       "satClients": "Satisfied Clients"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive actuarial solutions tailored to the unique needs of your organization",
+    "overview": {
+      "title": "Actuarial Excellence at Your Service",
+      "description": "Our team of expert actuaries provides a comprehensive range of services designed to help your organization navigate complex financial challenges and seize opportunities."
+    },
+    "insurance": {
+      "title": "Insurance Consulting",
+      "description": "Assist the preparation of Filing for Life Insurance and General Insurance New Products. Re-checking the formulas and assumptions used for Life, General, & Health Insurance products, calculation and validation of Premium Reserves for life and general insurance companies, calculation of claim reserves, UPR, and URR for Life, General and Health Insurance, Calculation of Motor Vehicle Rates based on the previous company claims. Other services required according to the needs of each service user, including a second opinion from an Actuary which may be needed as a comparison.",
+      "keyBenefit1": "Product Filing Support – Assistance in preparing Life and General Insurance new product filings.",
+      "keyBenefit2": "Technical Accuracy – Review of formulas and assumptions to ensure compliance and soundness.",
+      "keyBenefit3": "Reserve Validation – Accurate calculation of premium, claim, UPR, and URR reserves.",
+      "keyBenefit4": "Rates Analysis – Motor vehicle rates calculation based on historical claims data.",
+      "keyBenefit5": "Technical Accuracy – Review of formulas and assumptions to ensure compliance and soundness."
+    },
+    "retirement": {
+      "title": "Retirement Funds and Health Warranty",
+      "description": "Assist in the preparation and establishment of Pension Funds as well as the dissolution of Pension Funds (DPPK & DPLK). Calculation and illustration of health program costs for active participants and retirees. Retirement fund valuation and simulation of retirement benefit calculations; study of employee’s health Insurance to get the best option for the Company including funding, institutional and operational implementation of health insurance.",
+      "keyBenefit1": "End-to-End Pension Fund Support – Assistance in setting up or dissolving DPPK & DPLK schemes.",
+      "keyBenefit2": "Health Cost Forecasting – Cost estimation for healthcare programs for employees and retirees.",
+      "keyBenefit3": "Retirement Benefit Simulation – Accurate valuation and projection of employee retirement benefits.",
+      "keyBenefit4": "Health Insurance Optimization – Evaluation to select the most effective health insurance solution.",
+      "keyBenefit5": "Comprehensive Implementation – Guidance on funding, structure, and operations of health programs."
+    },
+    "welfare": {
+      "title": "Employee Welfare Benefits",
+      "description": "Calculate the estimation of Defined Benefit Liabilities and Expenses based on the provisions of employee benefit accounting standards for the requested period alongside the company policy, Employment Law No. 13 of 2003, and other regulations applicable to the company to comply the financial reports based on PSAK-24 (Employee Benefits), International Accounting Standards (IAS) and other Accounting Standards, including SAK ETAP.",
+      "keyBenefit1": "Regulatory Compliance – Aligned with PSAK 24, IAS, and Employment Law No. 13/2003.",
+      "keyBenefit2": "Accurate Financial Reporting – Ensures proper recognition of employee benefit liabilities and expenses.",
+      "keyBenefit3": "Legal Risk Mitigation – Complies with legal obligations to employees under applicable laws.",
+      "keyBenefit4": "Better Financial Planning – Provides a reliable basis for long-term budgeting and projections.",
+      "keyBenefit5": "Stakeholder Transparency – Enhances trust from investors and auditors through reliable disclosures."
+    },
+    "workshop": {
+      "title": "Actuary Training",
+      "description": "Facilitate the preparations for taking the Actuary professional exam by providing training regarding Retirement fund calculations, PSAK-24, and knowledge regarding the calculation of technical reserves for life insurance companies and general insurance, as well as training for non actuarial resources.",
+      "keyBenefit1": "Exam Readiness – Support for Actuary exam preparation through focused training.",
+      "keyBenefit2": "Practical Skills – Training in retirement fund calculations and PSAK-24 applications.",
+      "keyBenefit3": "Technical Mastery – Deepened understanding of technical reserve calculations for insurance.",
+      "keyBenefit4": "Inclusive Training – Programs available for both actuarial and non-actuarial staff.",
+      "keyBenefit5": "Professional Development – Enhances competencies relevant to insurance and pensions sectors."
+    },
+    "process": {
+      "title": "Our Consulting Process",
+      "description": "We follow a structured yet flexible approach to ensure we deliver solutions that precisely meet your needs",
+      "step1": {
+        "name": "Step 1",
+        "title": "Discovery & Analysis",
+        "description": "We begin by thoroughly understanding your organization's unique needs, challenges, and objectives through in-depth consultations and data analysis."
+      },
+      "step2": {
+        "name": "Step 2",
+        "title": "Strategy Development",
+        "description": "Our expert actuaries design tailored solutions and strategies based on rigorous analysis and industry best practices."
+      },
+      "step3": {
+        "name": "Step 3",
+        "title": "Implementation",
+        "description": "We work closely with your team to implement solutions efficiently, providing clear guidance and support throughout the process."
+      },
+      "step4": {
+        "name": "Step 4",
+        "title": "Ongoing Support & Optimization",
+        "description": "We provide continuous monitoring, periodic reviews, and ongoing optimization to ensure long-term success and adaptation to changing circumstances."
+      }
+    },
+    "transform": {
+      "title": "Ready to Transform Your Financial Strategy?",
+      "description": "Contact us today to discuss how our actuarial expertise can help your organization thrive.",
+      "button": "Schedule a Consultation"
+    }
+  },
+  "clients": {
+    "title": "Our Client",
+    "description": "Trusted by leading organizations across Asia to deliver exceptional actuarial solutions",
+    "logo": {
+      "title": "Trusted by Industry Leaders",
+      "description": "We've had the privilege of working with hundreds of organizations across various industries."
+    },
+    "cta": {
+      "title": "Join Our Growing Client Portfolio",
+      "description": "Discover how KKA VAB can deliver tailored actuarial solutions for your organization.",
+      "button": "Contact Us Today"
+    }
+  },
+  "contact": {
+    "title" : "Contact Us",
+    "description": "Reach out to discuss how our actuarial expertise can help your company thrive",
+    "information": {
+      "title": "Get In Touch",
+      "description1": "Have questions about our services or want to discuss how we can help your company ?",
+      "description2": "Our team of experts is ready to assist you. Fill out the form or use the contact details below to reach out to us.",
+      "address": {
+        "title": "Our Office",
+        "description1": "Jl. Flamboyan II no.14 blok X-8 Taman Cimanggu",
+        "description2": "Kota Bogor, Indonesia"
+      },
+      "phone": {
+        "title": "Phone",
+        "description1": "+62 81919 056000",
+        "description2": "+62 81919 190560"
+      },
+      "email": {
+        "title": "Email",
+        "description": "agus05lastika@gmail.com"
+      },
+      "officeHours": {
+        "title": "Office Hours",
+        "description1": "Monday-Friday: 9am - 6pm",
+        "description2": "Saturday-Sunday: Closed"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "fullName": "Full Name*",
+      "email": "Email Address*",
+      "company": "Company",
+      "phoneNum": "Phone Number",
+      "services": "Service of Interest*",
+      "message": "Your Message*",
+      "button": "Send Message",
+      "agree": "By submitting this form, you agree to our privacy policy. We will never share your information with third parties."
     }
   }
 }
