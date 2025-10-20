@@ -397,7 +397,7 @@ export default function ManfaatKaryawanCalculator() {
                     </div>
 
                     <div className="disclaimer">
-                        <h3>Catatan:</h3>u
+                        <h3>Catatan:</h3>
                         <ul>
                             <li>Perhitungan mengacu pada PSAK 24 (Manfaat Karyawan)</li>
                             <li>Asumsi manfaat pensiun: 2% per tahun masa kerja dari gaji terakhir</li>
